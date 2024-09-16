@@ -1,0 +1,12 @@
+<div class="product-wrapper">
+    <div class="product" *ngFor="let singleProduct of allproducts">
+        <span>{{singleProduct.name}}</span>
+        <img src="./../../assets/{{singleProduct.imageName}}.png">
+        <div class="price-tag">
+            <span>Price</span>
+            <span>Rs. {{singleProduct.price}}</span>
+        </div>
+
+        <button class="addToCart">Add To Cart</button>
+    </div>
+</div>

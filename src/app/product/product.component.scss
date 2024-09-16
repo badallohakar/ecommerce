@@ -1,0 +1,37 @@
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    background: aliceblue;
+    padding: 15px;
+    height: 250px;
+    box-shadow: 5px 5px 11px -4px #bbb1b1;
+
+    img{
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .price-tag{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    .addToCart{
+        width: 150px;
+    padding: 5px 0;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    }
+}
+.product-wrapper{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
